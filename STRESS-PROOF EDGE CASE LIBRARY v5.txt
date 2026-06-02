@@ -1,0 +1,107 @@
+STRESS-PROOF EDGE CASE LIBRARY v5
+
+PURPOSE:
+Classify edge-case cards/effects without altering core STRESS-PROOF layers.
+Works with UROE resolution engine.
+Game-specific execution layer only.
+
+─────────────────────────────
+
+GAME PROFILE:
+Defines how each game behaves.
+
+Includes:
+- Targeting rules
+- Stack/chain rules
+- Timing windows
+- Replacement effects
+- Keyword mapping
+
+Examples:
+MTG / Yu-Gi-Oh / Pokémon / One Piece / Lorcana
+
+─────────────────────────────
+
+CARD / EFFECT TEMPLATE:
+
+Card Name: [Insert]
+Game Profile: [Game]
+
+Stage/Chapter: [Optional]
+
+Primary Layer: [B / V / S / I / N / M / C / H]
+Secondary Layer: [Optional]
+
+Resolution Modifiers:
+Targeting / Non-Targeting / Destroy / Banish / Bounce / Tribute / Exile / Piercing / Trample / Lifelink / Deathtouch / Damage Override / Direct Damage
+
+Timing Modifiers:
+If / When / Whenever / Quick / Reactive / Mandatory / Optional / Continuous / Until End Phase / Permanent
+
+Interaction Dependency:
+Multi-Effect / Looping / Replacement Effect / State-Based Action / Missed Timing / Chain Blocking / Last Thing to Happen / Immunity / Priority Window
+
+Function Notes:
+Brief description of what the effect does
+
+─────────────────────────────
+
+RESOLUTION MODIFIERS (MEANING):
+Targeting = selects a target
+Non-Targeting = no target selection (Yu-Gi-Oh distinction)
+Destroy / Banish / Bounce / Tribute / Exile = board/state change actions
+Piercing / Trample = damage overflow rules
+Lifelink / Deathtouch = combat conversion modifiers
+Direct Damage = bypass board into value/win progress
+
+─────────────────────────────
+
+TIMING MODIFIERS:
+If = condition must be met
+When = trigger on event (may miss timing in some games)
+Whenever = repeat trigger
+Quick / Instant = response window
+Reactive = responds to another effect
+Mandatory = must activate
+Optional = player choice
+Continuous = ongoing effect
+Until End Phase / Permanent = duration limit
+
+─────────────────────────────
+
+INTERACTION DEPENDENCY RULES:
+Multi-Effect = multiple layers resolve from one card
+Looping = repeated interaction generates scaling value
+Replacement Effect = changes outcome before resolution
+State-Based Action = game-rule enforced state check
+Missed Timing = Yu-Gi-Oh specific trigger failure
+Chain Blocking = prevents response window access
+Last Thing to Happen = resolution priority rule
+Immunity = bypass targeting / negation / removal
+
+─────────────────────────────
+
+ANALYSIS WORKFLOW (UROE COMPATIBLE):
+1. Load Game Profile (rules context)
+2. Assign Primary Layer (main intent)
+3. Assign Secondary Layer (support effect)
+4. Apply Resolution Modifiers (how it resolves)
+5. Apply Timing Modifiers (when it resolves)
+6. Apply Interaction Dependency rules (special cases)
+7. Resolve using UROE order: S → N → I → M → V/B/H/C → State Update
+
+─────────────────────────────
+
+CORE RULES:
+Z = neutral movement only (no advantage)
+I = multiplier only (never standalone advantage)
+S = timing/ordering only (no advantage)
+N = pre-resolution prevention only
+M = final state execution
+V/B/H/C = post-resolution evaluation only
+
+Edge cases never override core STRESS-PROOF layers.
+Each game profile defines interpretation differences.
+
+─────────────────────────────
+END OF EDGE CASE LIBRARY v5

@@ -1,0 +1,131 @@
+Universal card game teaching Model
+------------------------------------------------------------
+STAGE 1 — FOUNDATION (R, A, Z + S intro)
+Goal: Understand legal actions, card movement, and timing basics
+
+Layers:
+  R = Rules (turns, summoning, win conditions)
+  A = Accessibility (costs/restrictions)
+  Z = Zone Movement (draw, discard, send to graveyard)
+  S = Sequencing (introduced lightly: "order of actions matters even for basic moves")
+
+Player Focus:
+  "What can I legally do, where do cards go, and does order matter?"
+
+Exercises:
+  - Play basic cards, track movement, observe turn structure
+  - Note if moving cards triggers anything (conditional or replacement effects)
+  - Introduce "S-light": when two things happen simultaneously, which first?
+  
+Special Notes:
+  - Timing awareness is introduced early to prevent missed trigger misunderstandings
+------------------------------------------------------------
+STAGE 2 — ACCESS & STABILITY (C, H, B + S reinforcement)
+Goal: Understand how to execute game plans reliably and efficiently
+
+Layers:
+  C = Consistency (drawing/searching key cards)
+  H = Hand Advantage (options in hand)
+  B = Board Advantage (control of field)
+  S = Sequencing reinforcement ("order affects success of your combo or response")
+
+Player Focus:
+  "How do I get my strategy online and keep it running, considering timing?"
+
+Exercises:
+  - Identify deck bricking, test card synergy
+  - Manage board presence
+  - Note when play order affects outcome (early use of S)
+  
+Special Notes:
+  - Introduce targeting vs non-targeting effects (important for Yu-Gi-Oh)
+  - Start basic S-awareness for chains and interactions
+------------------------------------------------------------
+STAGE 3 — INTERACTION & DEFENSE (N, M + Replacement Effects)
+Goal: Introduce conflict, response, and pre/post resolution mechanics
+
+Layers:
+  N = Negation (prevent opponent actions, pre-resolution)
+  M = Removal (eliminate opponent threats, post-resolution)
+  S = Sequencing importance emphasized
+
+Player Focus:
+  "How do I stop or respond to threats? Does order or replacement effect matter?"
+
+Exercises:
+  - Decide when to counter or remove
+  - Track replacement effects (if "would happen, do this instead")
+  - Practice timing windows: If/When/Whenever
+
+Special Notes:
+  - Explain missed timing (triggers that can fail if not chained properly)
+  - Multi-effect interactions introduced (I preview)
+------------------------------------------------------------
+STAGE 4 — STRATEGY & COMBOS (V, T₁, I)
+Goal: Understand win conditions, combo efficiency, and value scaling
+
+Layers:
+  V = Value / Win Conditions
+  T₁ = Tempo (speed of converting advantage)
+  I = Interaction / Combo Multiplier
+
+Player Focus:
+  "Which plays advance my win condition fastest? How do interactions multiply value?"
+
+Exercises:
+  - Analyze 2–3 card combos, calculate advantage
+  - Optimize sequencing using S (previously learned)
+  - Experiment with timing modifiers (If/When/Quick/Reactive)
+
+Special Notes:
+  - Introduce recursion and loops
+  - Emphasize that I does not create advantage alone but multiplies existing layers
+------------------------------------------------------------
+STAGE 5 — ADVANCED TIMING & SEQUENCING (S deep dive)
+Goal: Master chain resolution, stack order, and advanced timing
+
+Layers:
+  S = Sequencing (order of actions matters)
+  
+Player Focus:
+  "Correct actions in the wrong order are still wrong. Learn stack/chain/priority."
+
+Exercises:
+  - Practice chain resolution scenarios
+  - Introduce conditional triggers (If/When/Whenever)
+  - Explore replacement effects in complex sequences
+  - Observe pre- and post-resolution dependencies (N vs M)
+
+Special Notes:
+  - Reinforce that S affects all layers equally
+  - Timing-sensitive edge cases (Yu-Gi-Oh, MTG replacement effects)
+------------------------------------------------------------
+STAGE 6 — META AWARENESS (M2, A2, O, T₂)
+Goal: Understand the broader game environment
+
+Layers:
+  M2 = Meta Distribution (common decks/archetypes)
+  A2 = Adaptation (tech choices, counters)
+  O = Outcome Layer (matchup trends, win rates)
+  T₂ = Meta Evolution Stage (new, shifting, solved)
+
+Player Focus:
+  "The game is an ecosystem; my deck is part of it"
+
+Exercises:
+  - Study matchups, test counters, track meta trends
+  - Reflect on how timing and sequencing affect outcomes
+  - Evaluate combos in context of meta prevalence
+
+Special Notes:
+  - Introduce continuous feedback loop: practice layers → evaluate → adapt
+------------------------------------------------------------
+GENERAL NOTES FOR TEACHERS & LEARNERS:
+- Introduce sequencing (S) as early as possible, first lightly in Stage 1.
+- Introduce targeting vs non-targeting effects in Stage 2.
+- Replacement effects taught at Stage 3 with N/M context.
+- Z always neutral; I multiplies layers; S affects order, not advantage.
+- Beginner progression remains: Foundation → Access → Interaction → Strategy → Sequencing → Meta.
+- Each game profile can define unique behavior, preserving identity and edge cases.
+------------------------------------------------------------
+END OF ZERO-AMBIGUITY TEACHING MODEL

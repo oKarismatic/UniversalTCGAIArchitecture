@@ -1,0 +1,121 @@
+UNIVERSAL CARD GAME RESOLUTION ORDER ENGINE (UROE v2)
+
+PURPOSE:
+Defines deterministic resolution order across all card games.
+Works with STRESS-PROOF v2 + Edge Case Library.
+Does NOT replace game rules — interprets them consistently.
+
+─────────────────────────────
+
+CORE RESOLUTION CYCLE:
+
+S → N → I → M → V / B / H / C → STATE UPDATE → (NEW S CYCLE IF TRIGGERS OCCUR)
+
+─────────────────────────────
+
+LAYER DEFINITIONS:
+
+S (Sequencing / Timing)
+- Controls when effects enter resolution
+- Validates timing (If / When / Whenever / Quick / Continuous)
+- Orders simultaneous events
+- ENTRY GATE ONLY
+
+N (Negation / Pre-Resolution)
+- Prevents effects before resolution
+- Works only on pending effects
+- Cannot affect resolved state
+
+I (Interaction / Multiplier)
+- Combines / amplifies effects
+- Enables synergy chains
+- Cannot negate or finalize effects
+
+M (Resolution / State Change)
+- Executes actual game changes
+- Includes: summon, destroy, exile, bounce, discard, etc.
+- FINAL execution step BEFORE evaluation
+
+V / B / H / C (Post-Resolution Evaluation)
+- V = Value / win progression
+- B = board state
+- H = hand resources
+- C = consistency / access
+- NO rule changes here
+
+STATE UPDATE
+- Locks final game state
+- Checks for new triggers
+- Begins next cycle if needed
+
+─────────────────────────────
+
+CYCLE CONTROL RULES (NEW CORE SYSTEM)
+
+1. SIMULTANEOUS EVENTS RULE
+- If multiple effects occur at same time:
+  → they enter a NEW S batch together
+  → S determines internal ordering
+
+2. REPLACEMENT EFFECT PRIORITY RULE
+- Replacement effects apply BEFORE M finalization
+- They modify what WOULD happen, not what already happened
+- They override M outcomes before lock-in
+
+3. RULE MODIFICATION SCOPE RULE
+- Effects that change rules (targeting, timing, etc.):
+  → apply immediately to CURRENT S cycle
+  → do NOT wait for next cycle unless explicitly stated
+
+4. CHAIN / STACK RE-ENTRY RULE
+- Any trigger created during resolution:
+  → enters STATE UPDATE
+  → re-enters at S as a new chain/stack batch
+
+5. LOOP / RECURSION CONTROL RULE
+- Repeated effects:
+  → must pass full S → N → I → M cycle each loop
+  → cannot skip layers even if repeated
+
+─────────────────────────────
+
+EDGE CASE HANDLING:
+
+Trample / Overflow:
+- M assigns damage
+- V calculates overflow conversion
+
+Non-Targeting Effects:
+- bypass N targeting restrictions
+- resolve directly in M
+
+Missed Timing (Yu-Gi-Oh):
+- failure occurs at S entry gate
+
+Replacement Effects:
+- modify outcome BEFORE M finalization
+
+Simultaneous Triggers:
+- restart at S as grouped batch
+
+─────────────────────────────
+
+CORE RULES:
+
+1. S = entry gate (timing + ordering only)
+2. N = pre-resolution prevention only
+3. I = modification only
+4. M = final execution
+5. V/B/H/C = interpretation only
+6. STATE UPDATE = lock + trigger scan
+7. NEW S CYCLE = any triggered or delayed effects
+
+─────────────────────────────
+
+DESIGN INTENT:
+- Fully deterministic across all card games
+- Handles chains, stacks, and timing systems uniformly
+- Compatible with STRESS-PROOF v2 + Edge Case Library
+- No hidden rules outside this engine
+
+END

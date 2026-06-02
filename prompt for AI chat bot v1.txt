@@ -1,0 +1,119 @@
+===============================
+UNIVERSAL CARD GAME MODEL + EDGE CASES + RESOLUTION ENGINE
+Notepad-Friendly / Stress-Tested Version
+===============================
+
+1. CORE LAYERS (STRUCTURAL & ADVANTAGE)
+
+R = Rules: win conditions, turn structure, timing, deck limits
+A = Accessibility: costs, requirements, legal play
+C = Consistency: draw reliability, search access, redundancy
+N = Negation: pre-resolution interference, counters
+M = Removal: post-resolution state correction (destroy, exile, bounce)
+Z = Zone Movement: draw, discard, search, mill, recursion (NEUTRAL)
+H = Hand Advantage: usable options, draw, recursion, disruption
+B = Board Advantage: units, control, combat dominance
+V = Value: win progression, engines, damage scaling
+T1 = Tempo: speed of converting advantage
+
+Modifiers:
+I = Interaction: cross-layer multiplier, combos (never standalone)
+S = Sequencing: timing & ordering control (no advantage)
+Meta Filters: M2 = Meta distribution, A2 = Adaptation, O = Outcome, T2 = Global time
+
+-------------------------------
+2. EDGE CASE LIBRARY (v5)
+
+Game Profile: defines behavior per game (MTG, Yu-Gi-Oh, Pokémon, etc.)
+Includes: targeting, stack/chain rules, timing windows, replacement effects, keyword mapping
+
+CARD TEMPLATE:
+Card: [Name]
+Game: [Profile]
+Stage/Chapter: [Optional]
+Primary Layer: [B/V/S/I/N/M/C/H]
+Secondary Layer: [Optional]
+Resolution Modifiers: Targeting/Non-Targeting/Destroy/Banish/Bounce/Tribute/Exile/Piercing/Trample/Lifelink/Deathtouch/Direct Damage
+Timing Modifiers: If/When/Whenever/Quick/Reactive/Mandatory/Optional/Continuous/Until End Phase/Permanent
+Interaction Dependency: Multi-Effect/Looping/Replacement/State-Based/Missed Timing/Chain Blocking/Last Thing/Immunity
+Function Notes: [Effect Description]
+
+Rules:
+- Z = neutral only
+- I = multiplier only
+- S = timing only
+- N = pre-resolution only
+- M = final execution
+- V/B/H/C = post-resolution evaluation only
+- Edge cases adapt per game profile
+
+-------------------------------
+3. UNIVERSAL RESOLUTION ENGINE (UROE v2)
+
+Core Cycle:
+S → N → I → M → V/B/H/C → STATE UPDATE → (new S cycle if triggers)
+
+Layer Definitions:
+S = Sequencing/Timing: controls entry, timing, ordering (no advantage)
+N = Negation: prevents effects pre-resolution
+I = Interaction: amplifies/combine effects (modification only)
+M = Resolution: final execution on game state
+V/B/H/C = Post-Resolution Evaluation: value, board, hand, consistency
+STATE UPDATE = locks state, scans for new triggers
+
+Cycle Control Rules:
+- Simultaneous events enter new S batch
+- Replacement effects modify M outcomes before finalization
+- Rule-modifying effects apply immediately to current S cycle
+- Chain/stack triggers enter STATE UPDATE, then re-enter at S
+- Loops/recursion pass full S → N → I → M cycle each iteration
+
+Edge Cases:
+- Trample/Overflow: M assigns, V calculates overflow
+- Non-Targeting: bypass N restrictions, resolve in M
+- Missed Timing: failed at S
+- Replacement Effects: applied before M
+- Simultaneous triggers: restart at S as grouped batch
+
+Core Rules Summary:
+1. S = entry gate (timing + ordering only)
+2. N = pre-resolution prevention only
+3. I = modification only
+4. M = final execution
+5. V/B/H/C = evaluation only
+6. STATE UPDATE = lock + trigger scan
+7. NEW S cycle = any triggered/delayed effects
+
+-------------------------------
+4. LAYERED TEACHING (Beginner-Friendly)
+
+Stage 1: Foundation (R, A, Z) - legal plays, card movement
+Stage 2: Access & Stability (C, H, B) - execute game plan
+Stage 3: Interaction & Defense (N, M) - counters, removals
+Stage 4: Strategy & Combos (V, T1, I) - win progression & combos
+Stage 5: Sequencing & Timing (S) - order of actions
+Stage 6: Meta Awareness (M2, A2, O, T2) - deck/environment adaptation
+
+-------------------------------
+5. ANALYSIS WORKFLOW (Stress-Proof + UROE + Edge Cases)
+
+1. Load Game Profile
+2. Assign Primary Layer
+3. Assign Secondary Layer
+4. Apply Resolution Modifiers
+5. Apply Timing Modifiers
+6. Apply Interaction Dependency rules
+7. Resolve using UROE:
+   S → N → I → M → V/B/H/C → STATE UPDATE → repeat S cycle if triggers
+
+-------------------------------
+DESIGN INTENT:
+- Universal across card games
+- Deterministic & stress-tested
+- Compatible with all timing/stack/edge-case systems
+- Adaptable for teaching or advanced analysis
+- Not a solver; interprets effects and interactions consistently
+
+===============================
+END OF NOTEPAD-FRIENDLY UNIVERSAL CARD GAME SYSTEM
+===============================

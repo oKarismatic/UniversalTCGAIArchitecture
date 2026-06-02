@@ -1,0 +1,192 @@
+UNIVERSAL CARD GAME THINKING MODEL: STRESS-PROOF v2
+
+R > A > C > N > M > Z > H > B > V > T₁
+Modifiers: I (cross-layer multiplier), S (sequencing layer)
+Meta: M2 > O > A2 > T₂
+
+CORE IDEA
+
+A universal framework for analyzing, teaching, and understanding any card game by breaking gameplay into functional layers.
+
+Not a solver or predictor — a structured system for decks, gameplay, and design understanding.
+
+CORE LAYERS (STRUCTURAL + ADVANTAGE CHAIN)
+R (Rules)
+
+Game constraints:
+
+win conditions
+turn structure
+timing/priority/stack rules
+deck construction rules
+resource system rules
+A (Accessibility)
+
+What can legally and economically be played:
+
+costs
+requirements
+restrictions
+setup constraints
+C (Consistency)
+
+Reliability of accessing the core game plan:
+
+draw quality
+search access
+redundancy
+mulligan stability
+deck density of key pieces
+N (Negation)
+
+Pre-resolution interference:
+
+counters
+disruption
+prevention
+hand traps
+effect denial
+M (Removal)
+
+Post-resolution state correction:
+
+destroy
+bounce
+exile
+wipes
+reset effects
+Z (Zone Manipulation) [NEUTRAL LAYER]
+
+Movement only (no inherent advantage):
+
+draw
+discard
+mill
+search
+recursion
+reanimation
+hand/deck/field/grave/exile transitions
+
+Z does NOT equal advantage — it enables other layers.
+
+H (Hand Advantage)
+
+Usable option economy:
+
+card draw (primary self-hand gain)
+discard (opponent reduction)
+recursion to hand
+hand disruption effects
+decision flexibility
+B (Board Advantage)
+
+Field presence and control:
+
+units in play
+board dominance
+combat advantage
+protection / threats / stabilization
+V (Value)
+
+Long-term advantage and win conversion:
+
+win conditions
+damage scaling
+engines
+recursion loops
+inevitability
+stall advantage
+resource snowballing
+T₁ (Tempo)
+
+In-game conversion speed:
+
+how fast advantage becomes a winning state
+acceleration of win conditions
+efficiency of turns and sequences
+MODIFIERS (NON-LINEAR SYSTEM LAYERS)
+I (Interaction) — MULTIPLIER LAYER
+
+Cross-layer synergy amplification:
+
+combos
+multi-card interactions
+state-dependent scaling
+conversion efficiency increases
+
+I modifies C, H, B, V, N, M depending on context
+NOT a standalone advantage layer
+
+S (Sequencing)
+
+Ordering and timing optimization:
+
+play order decisions
+stack timing
+trigger ordering
+combo execution order
+resource timing efficiency
+
+S does NOT create advantage — it determines when and how efficiently layers resolve
+
+META FILTERS (OUTSIDE CORE SYSTEM)
+M2 (Meta Distribution)
+
+Archetype spread in environment
+
+O (Outcome Layer)
+
+Win rates and matchup performance
+
+A2 (Adaptation Layer)
+
+Tech choices and counterbuilding
+
+T₂ (Global Time)
+
+Meta evolution stage:
+
+early / shifting / stable / solved
+KEY SYSTEM RULES
+PRIMARY vs SECONDARY TAGGING
+
+Every card/effect has:
+
+PRIMARY function (main layer intent)
+SECONDARY function (supporting side effect)
+
+Example:
+Tutor spell → Primary: C, Secondary: Z
+Board wipe → Primary: M, Secondary: V
+
+Z RULE (STRICT NEUTRALITY)
+
+Z = movement only
+Never interpret Z as advantage directly
+All advantage emerges in C, H, B, V
+
+C vs H RULE
+C = access probability of strategy
+H = current usable options
+
+They may overlap, but must be evaluated separately
+
+N vs M RULE (TIMING SPLIT)
+N = prevents resolution (pre-action)
+M = fixes resolved state (post-action)
+I RULE (MULTIPLIER ONLY)
+
+I never generates advantage alone
+It amplifies other layers
+
+S RULE (ORDER CONTROL)
+
+S affects all layers equally through timing and sequencing
+No direct advantage generation
+
+DESIGN INTENT
+universal across card games
+adaptable without redesign
+analytical + educational + AI-compatible
+not a solver or prediction engine
+Structured translation of card text into gameplay meaning

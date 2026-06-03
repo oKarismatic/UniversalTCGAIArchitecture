@@ -1,0 +1,221 @@
+UNIVERSAL CARD GAME THINKING MODEL: STRESS-PROOF v3
+
+R > A > C > N > M > Z > H > B > T > V > W
+Modifiers: I (cross-layer multiplier), S (sequencing layer)
+Meta: M2 > O > A2 > T₂
+
+CORE IDEA
+
+A universal framework for analyzing, teaching, and understanding any card game by breaking gameplay into functional layers.
+
+Not a solver or predictor — a structured system for decks, gameplay, and design understanding.
+
+CORE LAYERS (STRUCTURAL + ADVANTAGE CHAIN)
+R (Rules)
+
+Game constraints:
+
+win conditions
+turn structure
+timing/priority/stack rules
+deck construction rules
+resource system rules
+
+A (Accessibility)
+
+What can legally and economically be played:
+
+costs
+requirements
+restrictions
+setup constraints
+
+C (Consistency)
+
+Reliability of accessing the core game plan:
+
+draw quality
+search access
+redundancy
+mulligan stability
+deck density of key pieces
+
+N (Negation)
+
+Pre-resolution interference:
+
+counters
+disruption
+prevention
+hand traps
+effect denial
+
+M (Removal)
+
+Post-resolution state correction:
+
+destroy
+bounce
+exile
+wipes
+reset effects
+
+Z (Zone Manipulation) [NEUTRAL LAYER]
+
+Movement only (no inherent advantage):
+
+draw
+discard
+mill
+search
+recursion
+reanimation
+hand/deck/field/grave/exile transitions
+
+Z does NOT equal advantage — it enables other layers.
+
+H (Hand Advantage)
+
+Usable option economy:
+
+card draw (primary self-hand gain)
+discard (opponent reduction)
+recursion to hand
+hand disruption effects
+decision flexibility
+
+Rule: Hand advantage must be calculated strictly by the net change in hand size. Advanced draw, filtering, or looting effects that require a card discard result in a neutral (0) advantage, not positive.
+
+B (Board Advantage)
+
+Field presence and control:
+
+units in play
+board dominance
+combat advantage
+protection / threats / stabilization
+
+T (Tempo)
+
+In-game conversion speed and velocity:
+
+resource-to-impact efficiency
+turn acceleration
+disrupting the opponent's time investment
+immediate momentum shifts
+
+V (Value)
+
+Long-term advantage and snowballing:
+
+engines
+recursion loops
+inevitability
+recurring resource advantages
+multi-turn dividends
+
+W (Win Progress)
+
+Direct match termination:
+
+damage / health reduction
+combo completion
+lock establishment
+lethal pressure
+victory advancement
+
+MODIFIERS (NON-LINEAR SYSTEM LAYERS)
+I (Interaction) — MULTIPLIER LAYER
+
+Cross-layer synergy amplification:
+
+combos
+multi-card interactions
+state-dependent scaling
+conversion efficiency increases
+
+I modifies C, H, B, T, V, W, N, M depending on context
+NOT a standalone advantage layer
+
+S (Sequencing)
+
+Ordering and timing optimization:
+
+play order decisions
+stack timing
+trigger ordering
+combo execution order
+resource timing efficiency
+
+S does NOT create advantage — it determines when and how efficiently layers resolve
+
+META FILTERS (OUTSIDE CORE SYSTEM)
+M2 (Meta Distribution)
+
+Archetype spread in environment
+
+O (Outcome Layer)
+
+Win rates and matchup performance
+
+A2 (Adaptation Layer)
+
+Tech choices and counterbuilding
+
+T₂ (Global Time)
+
+Meta evolution stage:
+
+early / shifting / stable / solved
+
+KEY SYSTEM RULES
+
+PRIMARY vs SECONDARY TAGGING
+
+Every card/effect has:
+
+PRIMARY function (main layer intent)
+SECONDARY function (supporting side effect)
+
+Example:
+Tutor spell → Primary: C, Secondary: Z
+Board wipe → Primary: M, Secondary: W
+
+Z RULE (STRICT NEUTRALITY)
+
+Z = movement only
+Never interpret Z as advantage directly
+All advantage emerges in C, H, B, T, V, W
+
+C vs H RULE
+C = access probability of strategy
+H = current usable options
+
+They may overlap, but must be evaluated separately
+
+N vs M RULE (TIMING SPLIT)
+N = prevents resolution (pre-action)
+M = fixes resolved state (post-action)
+
+T vs V RULE (CLOCK vs SNOWBALL)
+T = immediate velocity and resource efficiency (The Clock)
+V = long-term economic inevitability (The Snowball)
+
+Rule: A play can be high-tempo but negative-value (e.g., spending a card to temporarily bounce a unit). They must never be scored as the same metric.
+
+I RULE (MULTIPLIER ONLY)
+
+I never generates advantage alone
+It amplifies other layers
+
+S RULE (ORDER CONTROL)
+
+S affects all layers equally through timing and sequencing
+No direct advantage generation
+
+DESIGN INTENT
+universal across card games
+adaptable without redesign
+analytical + educational + AI-compatible
+not a solver or prediction engine
+Structured translation of card text into gameplay meaning

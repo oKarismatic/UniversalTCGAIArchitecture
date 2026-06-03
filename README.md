@@ -1,3 +1,5 @@
+Status: Early design prototype. I’m learning — this repo contains architecture docs and prompt templates but no production implementation yet. Contributions and mentoring welcome
+
 # UniversalTCGAIArchitecture
 Modular AI framework for TCG logic, featuring UROE v2 resolution engine, stress-proof edge-case handling, and dual-personality coaching agents.
 

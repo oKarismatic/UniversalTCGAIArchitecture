@@ -1,4 +1,5 @@
 Status: Early design prototype. I’m learning — this repo contains architecture docs and prompt templates but no production implementation yet. Contributions and mentoring welcome
+This will be updated over time sometimes more slowerly then others due to availability feel free to take it and start your own projects 
 
 # UniversalTCGAIArchitecture
 Modular AI framework for TCG logic, featuring UROE v2 resolution engine, stress-proof edge-case handling, and dual-personality coaching agents.
@@ -6,6 +7,8 @@ Modular AI framework for TCG logic, featuring UROE v2 resolution engine, stress-
 My brother and I built this system because we were tired of AI tools that struggled with complex card game logic, timing, and rules. We wanted something that could actually "think" through a game's state deterministically and explain its reasoning.
 
 This system is a deterministic state machine that separates game rules from execution logic. It is designed to be highly adaptable; by defining a new "Game Profile," this engine can be applied to different trading card games. It is meant to be modified or specialized to specific games to create different tools without the need to start from scratch.
+
+https://gemini.google.com/share/8855159d1161 <------ a Quick link to a DEMO of H.E v5 in gemini to use share first state the game(ex. Yu gi oh, Magic the Gathering....etc) then the format( Standard, expanded, alchemy.....etc) and if your playing Best of 3 or 1 this is apart of format and should look like this ( ex. Magic the gathering Standard Best of 3 formatt) then shift enter and paste the decklist in text formatt 
 
 
 <img width="1842" height="994" alt="Screenshot 2026-06-03 053957" src="https://github.com/user-attachments/assets/e8d0a2f7-1e4c-4d55-b4e0-7eeb6ecaf886" />

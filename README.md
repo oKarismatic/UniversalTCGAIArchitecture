@@ -8,6 +8,15 @@ Modular AI framework for TCG logic, featuring the UROE v2 resolution engine, rob
 Short description My brother and I built this system because we were frustrated by AI tools that struggle with complex trading-card-game logic, timing, and rules. This engine is a deterministic state machine that separates game rules from execution logic. By defining a "Game Profile" the engine can be adapted to different TCGs.
 
 Demo (Gemini H.E v5) Demo link: https://gemini.google.com/share/8855159d1161 Usage notes: When using the shared demo, first state the game name (e.g., "Yu-Gi-Oh!", "Magic: The Gathering"), then state the format (e.g., "Standard", "Commander"), and finally paste the game state or prompt you want the model to evaluate. Example:
+Currently tired i will update this later demo above is outdated here is the new link and below a few prompts https://gemini.google.com/share/09780afc8585 wierd thing my brother discovered https://gemini.google.com/share/202454c53b3e
+
+Must use this format for decks:      if error's start to occur: /reanchor (this needs heavy testing)
+[DECK_ID: Red_Burn_v1]                                          reanchor [DECK_ID: Naya_Midrange]
+<DECK_START>
+4 Lightning Bolt
+4 Goblin Guide
+...
+<DECK_END>
 
 Game: Magic: The Gathering — Format: Standard — Prompt: "Resolve a turn where..."
 

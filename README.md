@@ -26,7 +26,9 @@ if error's start to occur: /reanchor (this needs heavy testing)
 if you don't want it to reset fully: /reanchor [DECK_ID: Red_Burn_v1]
 
 
-These images below are of Gemini Making a working clone of itself 
+The following examples show Gemini operating through the AI-Powered TCG Analysis Framework. The framework enforces structured reasoning, state tracking, resource evaluation, and interaction resolution rather than relying solely on freeform AI responses.
+
+
 <img width="1772" height="976" alt="Screenshot 2026-06-04 020937" src="https://github.com/user-attachments/assets/8d2a29fd-cf02-4b21-a811-33e7421b27ad" />
 <img width="1847" height="986" alt="Screenshot 2026-06-04 021143" src="https://github.com/user-attachments/assets/57b4b68d-a4ee-4a0f-9959-acb68ce8bf32" />
 <img width="1866" height="983" alt="Screenshot 2026-06-04 022151" src="https://github.com/user-attachments/assets/145754ad-73f6-4b67-ae94-f0b1b06c535f" />

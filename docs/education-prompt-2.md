@@ -1,0 +1,42 @@
+# Education Prompt 2
+
+*Original filename: "Education Prompt 2"*
+
+```
+Educational Framework Validation Test
+For each framework term listed below:
+
+Provide the framework definition.
+Explain the purpose of the term within the framework.
+Provide a simple example.
+Provide an advanced gameplay example.
+Explain a common misconception.
+Explain how the term interacts with other framework concepts.
+If applicable, explain how this framework's interpretation differs from common TCG usage.
+Terms to evaluate:
+
+Accessibility
+Consistency
+Tempo
+Value
+Hand Assets
+Board State
+Runtime Event
+Gameplay Event
+Zone Manipulation
+Resource Conversion
+Resource Generation
+Tutors
+Enablers
+Payoffs
+Format:
+TERM:
+Definition:
+Purpose:
+Simple Example:
+Advanced Example:
+Common Misconception:
+Framework Interaction Notes:
+Framework-Specific Distinction:
+Do not merely provide dictionary definitions. Explain each term according to the framework's methodology and evaluation logic.
+```

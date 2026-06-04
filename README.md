@@ -10,15 +10,19 @@ Short description My brother and I built this system because we were frustrated 
 Demo (Gemini H.E v5) Demo link: https://gemini.google.com/share/8855159d1161 Usage notes: When using the shared demo, first state the game name (e.g., "Yu-Gi-Oh!", "Magic: The Gathering"), then state the format (e.g., "Standard", "Commander"), and finally paste the game state or prompt you want the model to evaluate. Example:
 Currently tired i will update this later demo above is outdated here is the new link and below a few prompts https://gemini.google.com/share/09780afc8585 wierd thing my brother and me found we could do https://gemini.google.com/share/fbb916aff29d
 
-Must use this format for decks:      if error's start to occur: /reanchor (this needs heavy testing)
-[DECK_ID: Red_Burn_v1]                                          reanchor [DECK_ID: Naya_Midrange]
+Must use this format for decks:
+
+[DECK_ID: Red_Burn_v1]                                         
 <DECK_START>
 4 Lightning Bolt
 4 Goblin Guide
 ...
 <DECK_END>
 
-Game: Magic: The Gathering — Format: Standard — Prompt: "Resolve a turn where..."
+
+if error's start to occur: /reanchor (this needs heavy testing)
+if you don't want it to reset fully: /reanchor [DECK_ID: Red_Burn_v1]
+
 
 These images below are of Gemini Making a working clone of itself 
 <img width="1772" height="976" alt="Screenshot 2026-06-04 020937" src="https://github.com/user-attachments/assets/8d2a29fd-cf02-4b21-a811-33e7421b27ad" />

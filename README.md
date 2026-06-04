@@ -20,7 +20,13 @@ Must use this format for decks:      if error's start to occur: /reanchor (this 
 
 Game: Magic: The Gathering — Format: Standard — Prompt: "Resolve a turn where..."
 
+These images below are of Gemini Making a working clone of itself 
+<img width="1772" height="976" alt="Screenshot 2026-06-04 020937" src="https://github.com/user-attachments/assets/8d2a29fd-cf02-4b21-a811-33e7421b27ad" />
+<img width="1847" height="986" alt="Screenshot 2026-06-04 021143" src="https://github.com/user-attachments/assets/57b4b68d-a4ee-4a0f-9959-acb68ce8bf32" />
+<img width="1866" height="983" alt="Screenshot 2026-06-04 022151" src="https://github.com/user-attachments/assets/145754ad-73f6-4b67-ae94-f0b1b06c535f" />
+<img width="1781" height="936" alt="Screenshot 2026-06-04 022204" src="https://github.com/user-attachments/assets/779f8480-6635-489a-8b02-87ff8850e8b7" />
 
+below are older version Images will post newer version soon tired
 <img width="1842" height="994" alt="Screenshot 2026-06-03 053957" src="https://github.com/user-attachments/assets/e8d0a2f7-1e4c-4d55-b4e0-7eeb6ecaf886" />
 <img width="1792" height="956" alt="Screenshot 2026-06-03 064531" src="https://github.com/user-attachments/assets/cfca6145-b54f-40cd-8794-50428646cbec" />
 <img width="1595" height="949" alt="Screenshot 2026-06-03 064706" src="https://github.com/user-attachments/assets/782fa2ca-c09c-421b-a97e-8f36c790561e" />

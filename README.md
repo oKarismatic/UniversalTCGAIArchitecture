@@ -2,7 +2,9 @@ Status: Early design prototype. I'm learning — this repository contains archit
 
 This project will be updated over time; availability varies. Feel free to fork the repo and start your own experiments.
 
-UniversalTCGAIArchitecture
+README Header:
+AI-Powered TCG Analysis Framework
+(formerly UniversalTCGAIArchitecture)
 Modular AI framework for TCG logic, featuring the UROE v2 resolution engine, robust edge-case handling, and dual-personality coaching agents.
 
 Short description My brother and I built this system because we were frustrated by AI tools that struggle with complex trading-card-game logic, timing, and rules. This engine is a deterministic state machine that separates game rules from execution logic. By defining a "Game Profile" the engine can be adapted to different TCGs.

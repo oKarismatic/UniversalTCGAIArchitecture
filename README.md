@@ -1,6 +1,6 @@
 # README
 
-## AI-Powered TCG Analysis Framework
+## TCG Analysis Framework
 
 **Status:** ✅ Validated Design Prototype with Proof of Concept
 

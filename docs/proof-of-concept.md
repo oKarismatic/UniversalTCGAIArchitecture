@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document contains validated test results demonstrating that the **Universal Resolution Order Engine v2 (UROE v2)** framework is operationalizable with AI systems. All tests were conducted using Google Gemini with the framework bound as a deterministic system directive.
+This document contains validated test results demonstrating that the **Universal Resolution Order Engine v2 (UROE v2)** framework is operationalizable with AI systems. All tests were conducted using Google Gemini API.
 
 **Status:** ✅ Validated (4+ test cases)
 
@@ -31,7 +31,7 @@ Directive accepted. The engine is strictly bound to the provided R-A-C-N-M-Z-I-H
 framework and the [S] → [N] → [I] → [M] → [W/V/T/B/H/C] → [STATE UPDATE] resolution cycle.
 ```
 
-**Screenshot:** [images/test-001-system-initialization.png](./assets/test-001-system-initialization.png)
+**Screenshot:** [Screenshot 2026-06-03 053957.png](./assets/Screenshot%202026-06-03%20053957.png)
 
 ---
 
@@ -72,7 +72,7 @@ framework and the [S] → [N] → [I] → [M] → [W/V/T/B/H/C] → [STATE UPDAT
 [Available Resources]: 1 Blue Mana
 ```
 
-**Screenshot:** [images/test-002-board-state-verification.png](./assets/test-002-board-state-verification.png)
+**Screenshot:** [Screenshot 2026-06-03 064531.png](./assets/Screenshot%202026-06-03%20064531.png)
 
 ---
 
@@ -105,7 +105,7 @@ framework and the [S] → [N] → [I] → [M] → [W/V/T/B/H/C] → [STATE UPDAT
 - **[M] Removal:** None present
 - ✅ Correctly identified replacement effect as pre-resolution interference
 
-**Screenshot:** [images/test-003-engine-classification.png](./assets/test-003-engine-classification.png)
+**Screenshot:** [Screenshot 2026-06-03 064841.png](./assets/Screenshot%202026-06-03%20064841.png)
 
 ---
 
@@ -179,7 +179,7 @@ No new cycles initiated.
 - Hand advantage correctly calculated as **-1** (not +3 from raw draw)
 - MTG comprehensive rules logic followed precisely
 
-**Screenshot:** [images/test-004-uroe-v2-trace.png](./assets/test-004-uroe-v2-trace.png)
+**Screenshot:** [Screenshot 2026-06-03 065038.png](./assets/Screenshot%202026-06-03%20065038.png)
 
 ---
 

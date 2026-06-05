@@ -4,13 +4,13 @@
 
 **Status:** ✅ Validated Design Prototype with Proof of Concept
 
-This repository contains architecture docs, prompt templates, and **validated test results** for a deterministic AI-based TCG analysis framework (UROE v2, H.E designs, stress-proof edge case handling).
+This repository contains architecture docs, prompt templates, and **validated test results** for a deterministic AI-based TCG analysis framework (UROE v2, H.E designs, stress-proof edge case handling, and dual-personality coaching agents).
 
 ---
 
 ## 🎯 What Is This?
 
-A **universal framework for analyzing trading card game mechanics** across MTG, Yu-Gi-Oh, Pokémon, One Piece TCG, and more. The framework has been **tested and validated with Google Gemini** to ensure it works deterministically without hallucination.
+A **universal framework for analyzing trading card game mechanics** across MTG, Yu-Gi-Oh, Pokémon, One Piece TCG, and more. The framework has been **tested and validated with Google Gemini** to ensure deterministic, hallucination-free analysis.
 
 **The framework is:**
 - ✅ Operationalizable with modern AI systems
@@ -27,12 +27,20 @@ A **universal framework for analyzing trading card game mechanics** across MTG, 
 
 | Test | Result | Evidence |
 |------|--------|----------|
-| System Initialization | ✅ PASS | Gemini accepts framework as deterministic directive |
-| MTG Game Profile Recognition | ✅ PASS | Correctly identifies & verifies Magic: The Gathering rules |
-| Complex Engine Classification | ✅ PASS | Accurately assigns layers & interaction packages |
-| UROE v2 Edge Case Resolution | ✅ PASS | Brainstorm + Chains of Mephistopheles resolved correctly |
+| System Initialization | ✅ PASS | [View Screenshot](docs/assets/Screenshot%202026-06-03%20053957.png) |
+| MTG Game Profile Recognition | ✅ PASS | [View Screenshot](docs/assets/Screenshot%202026-06-03%20064531.png) |
+| Complex Engine Classification | ✅ PASS | [View Screenshot](docs/assets/Screenshot%202026-06-03%20064841.png) |
+| UROE v2 Edge Case Resolution | ✅ PASS | [View Screenshot](docs/assets/Screenshot%202026-06-03%20065038.png) |
 
 **📄 [View Full Proof of Concept](docs/proof-of-concept.md)**
+
+Additional validation screenshots:
+- [Extended Test Trace 1](docs/assets/Screenshot%202026-06-03%20065206.png)
+- [Extended Test Trace 2](docs/assets/Screenshot%202026-06-03%20065435.png)
+- [Gemini Session 2 - Part 1](docs/assets/Screenshot%202026-06-04%20020937.png)
+- [Gemini Session 2 - Part 2](docs/assets/Screenshot%202026-06-04%20021143.png)
+- [Gemini Session 2 - Part 3](docs/assets/Screenshot%202026-06-04%20022151.png)
+- [Gemini Session 2 - Part 4](docs/assets/Screenshot%202026-06-04%20022204.png)
 
 ---
 

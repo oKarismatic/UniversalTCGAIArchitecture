@@ -10,14 +10,13 @@ This repository contains architecture docs, prompt templates, and **validated te
 
 ## 🎯 What Is This?
 
-A **universal framework for analyzing trading card game mechanics** across MTG, Yu-Gi-Oh, Pokémon, One Piece TCG, and more. The framework has been **tested and validated with Google Gemini** to ensure deterministic, hallucination-free analysis.
-
+A **A structured reasoning framework for AI-assisted trading card game analysis. The framework uses layered evaluation, verification rules, state tracking, and context re-anchoring to reduce drift and improve analytical consistency. Future versions are intended to integrate external structured databases to further reduce hallucinations and improve reproducibility.
 **The framework is:**
-- ✅ Operationalizable with modern AI systems
-- ✅ Stress-tested on complex MTG interactions
-- ✅ Deterministic (no hallucination, reproducible results)
-- ✅ Open source (MIT License)
-- ✅ Ready for implementation
+✅ Designed to operate with modern AI systems
+✅ Tested on complex MTG interactions and deck analysis scenarios
+✅ Built around deterministic workflows, verification rules, and re-anchoring mechanisms
+✅ Open source (MIT License)
+✅ Ready for implementation and expansion
 
 ---
 

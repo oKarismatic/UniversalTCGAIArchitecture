@@ -206,8 +206,8 @@ MIT License — Free for personal, commercial, and research use.
 If you use this framework in your project, please reference:
 
 ```
-AI-Powered TCG Analysis Framework (UROE v2)
-Repository: github.com/oKarismatic/AI-PoweredTCGAnalysisFramework
+TCG Analysis Framework (UROE v2)
+Repository: [https://github.com/oKarismatic/TCGAnalysisFramework]
 Framework: Universal Resolution Order Engine v2
 License: MIT
 ```

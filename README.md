@@ -6,7 +6,7 @@ Note: Copilot organized and set up this README for me. I'm still going through e
 
 This repository contains architecture documentation, prompt frameworks, and validation materials for an AI-assisted TCG analysis framework built around the UROE v2 and H.E. design architectures.
 
-The framework is designed to improve analytical consistency through structured evaluation layers, verification rules, state tracking, and context re-anchoring mechanisms. Included materials document testing deck analysis , complex MTG interactions, and framework validation examples.
+The framework is designed to improve analytical consistency through structured evaluation layers, verification rules, state tracking, and context re-anchoring mechanisms. Included materials document deck analysis testing , complex MTG interactions, and framework validation examples.
 
 This is an active development project. Documentation, testing, and framework components continue to evolve as new scenarios are evaluated and refined.
 

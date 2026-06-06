@@ -9,14 +9,14 @@ This repository contains architecture docs, prompt templates, and **validated te
 ---
 
 ## 🎯 What Is This?
+ **A structured reasoning framework for AI-assisted trading card game analysis. The framework uses layered evaluation, verification rules, state tracking, and context re-anchoring to reduce drift and improve analytical consistency. Future versions are intended to integrate external structured databases to further reduce hallucinations and improve reproducibility.
 
-A **A structured reasoning framework for AI-assisted trading card game analysis. The framework uses layered evaluation, verification rules, state tracking, and context re-anchoring to reduce drift and improve analytical consistency. Future versions are intended to integrate external structured databases to further reduce hallucinations and improve reproducibility.
 **The framework is:**
-✅ Designed to operate with modern AI systems
-✅ Tested on complex MTG interactions and deck analysis scenarios
-✅ Built around deterministic workflows, verification rules, and re-anchoring mechanisms
-✅ Open source (MIT License)
-✅ Ready for implementation and expansion
+- ✅ Designed to operate with modern AI systems
+- ✅ Tested on complex MTG interactions and deck analysis scenarios
+- ✅ Built around deterministic workflows, verification rules, and re-anchoring mechanisms
+- ✅ Open source (MIT License)
+- ✅ Ready for implementation and expansion
 
 ---
 

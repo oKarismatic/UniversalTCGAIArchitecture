@@ -1,5 +1,5 @@
 # README
-
+Note: Copilot organized and set up this README for me. I'm still going through everything, evaluating it, and making edits where needed. Feel free to check the linked screenshots for verification. Right now this is mostly a temporary template to help me organize the project.
 ## TCG Analysis Framework
 
 **Status:** ✅ Validated Design Prototype with Proof of Concept
